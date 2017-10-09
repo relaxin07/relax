@@ -1,0 +1,33 @@
+header
+	.top-line
+		.container
+			.row
+				.col-md-7
+					.logo-wrap 
+						.logo
+							img(src="img/logo.png", alt="") 
+							span.logo-text «Остров спокойствия вдали от городской суеты»
+				.col-md-4
+					.phone-wrap
+						.phone +7 (921) 595-70-53
+				.col-md-1
+					.lg-wrap
+						.lg Ru
+							.fa.fa-chevron-down(aria-hidder="true")
+	.main-menu
+		.container
+			.row
+				.col-md-8
+					nav
+						ul.main-menu-wrap
+							-var items = [" Коттеджи", "Ресторан", "Баня","План территори","Галлерия","Услуги","Отзывы","Контакты"];
+								for name in items
+									li.main-menu__items
+										a(href="#")=name
+				.col-md-4
+					.booking-wrap
+						.booking Бронирование  
+							img(src="img/time-icon.png") 
+							|  c 09:00 до 21-00
+
+

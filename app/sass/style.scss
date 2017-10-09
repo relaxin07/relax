@@ -1,0 +1,49 @@
+@import "_fonts";
+@import "_vars";
+@import "_header";
+@import "_slider-wrap";
+@import "_place";
+@import "_bonus";
+@import "_contacts";
+@import "_cottedj";
+@import "_nature";
+@import "_contacts-second";
+@import "_island";
+@import "_gallery";
+@import "_footer";
+
+h2{
+	font-size: 32px;
+	text-transform: uppercase;
+	font-family:$open-s-l;
+	color: #223240;
+	margin-top: 0;
+}
+
+body{
+	font-family: $open-s-r, sans-serif;
+	font-size: 16px;
+}
+
+.container{
+	width: 1170px !important;
+
+	
+}
+.row div[class^=col]{
+	&:first-child{
+		padding-left: 0 !important;
+	}
+	&:last-child{
+		padding-right: 0 !important;
+	}
+}
+.owl-prev,.owl-next{
+	width: 56px;
+	height: 56px;
+	text-align: center;
+	border-radius: 50px;
+	font-size: 20px;
+	line-height: 52px;
+
+}
